@@ -11,7 +11,6 @@
 		CA6368822570FA7B008217F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6368812570FA7B008217F7 /* SceneDelegate.swift */; };
 		CA6368842570FA7B008217F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6368832570FA7B008217F7 /* ViewController.swift */; };
 		CA6368872570FA7B008217F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6368852570FA7B008217F7 /* Main.storyboard */; };
-		CA63688A2570FA7B008217F7 /* AppTristanVarciat_1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6368882570FA7B008217F7 /* AppTristanVarciat_1_1.xcdatamodeld */; };
 		CA63688C2570FA80008217F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA63688B2570FA80008217F7 /* Assets.xcassets */; };
 		CA63688F2570FA80008217F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA63688D2570FA80008217F7 /* LaunchScreen.storyboard */; };
 		CA6368972570FB21008217F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6368962570FB21008217F7 /* MapViewController.swift */; };
@@ -163,7 +162,6 @@
 				CA640B442578EA4100680F47 /* Monu.swift in Sources */,
 				CA6368A1257106E2008217F7 /* TableViewCell.swift in Sources */,
 				CA6368802570FA7B008217F7 /* AppDelegate.swift in Sources */,
-				CA63688A2570FA7B008217F7 /* AppTristanVarciat_1_1.xcdatamodeld in Sources */,
 				CA6368972570FB21008217F7 /* MapViewController.swift in Sources */,
 				CA6368822570FA7B008217F7 /* SceneDelegate.swift in Sources */,
 				CA6368992570FB5F008217F7 /* CustomAnnotation.swift in Sources */,
