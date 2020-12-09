@@ -14,19 +14,21 @@ class Monu : MKPointAnnotation {
     
     //MARK: Properties
     
+	var id: String
     var name: String
     var photo: UIImage?
     var details: String
     var longitude: Double
     var latitude: Double
     
-    init?(name: String, photo: UIImage?, details:String, longitude:Double, latitude:Double) {
+	init?(id: String, name: String, photo: UIImage?, details:String, longitude:Double, latitude:Double) {
        
     guard !name.isEmpty else {
                return nil
            }
 
        // Initialize stored properties.
+		self.id = id
        self.name = name
        self.photo = photo
         self.details = details

@@ -20,6 +20,7 @@
 		CA640B48257E2D0500680F47 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA640B47257E2D0500680F47 /* DetailsViewController.swift */; };
 		E39FA6062580CB2C00A3AAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39FA6022580CB2C00A3AAD2 /* Main.storyboard */; };
 		E39FA6072580CB2C00A3AAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39FA6042580CB2C00A3AAD2 /* LaunchScreen.storyboard */; };
+		E39FA60D2580D15C00A3AAD2 /* MonuContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39FA60C2580D15B00A3AAD2 /* MonuContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CA640B47257E2D0500680F47 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		E39FA6032580CB2C00A3AAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E39FA6052580CB2C00A3AAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E39FA60C2580D15B00A3AAD2 /* MonuContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonuContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				CA63688B2570FA80008217F7 /* Assets.xcassets */,
 				CA6368902570FA80008217F7 /* Info.plist */,
 				CA6368882570FA7B008217F7 /* AppTristanVarciat_1_1.xcdatamodeld */,
+				E39FA60C2580D15B00A3AAD2 /* MonuContext.swift */,
 				CA6368962570FB21008217F7 /* MapViewController.swift */,
 				CA6368982570FB5F008217F7 /* CustomAnnotation.swift */,
 				CA63689A2570FEE8008217F7 /* ListViewController.swift */,
@@ -163,6 +166,7 @@
 				CA640B442578EA4100680F47 /* Monu.swift in Sources */,
 				CA6368A1257106E2008217F7 /* TableViewCell.swift in Sources */,
 				CA6368802570FA7B008217F7 /* AppDelegate.swift in Sources */,
+				E39FA60D2580D15C00A3AAD2 /* MonuContext.swift in Sources */,
 				CA63688A2570FA7B008217F7 /* AppTristanVarciat_1_1.xcdatamodeld in Sources */,
 				CA6368972570FB21008217F7 /* MapViewController.swift in Sources */,
 				CA6368822570FA7B008217F7 /* SceneDelegate.swift in Sources */,

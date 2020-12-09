@@ -14,27 +14,26 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var imgDetails: UIImageView!
     @IBOutlet weak var titleDetails: UILabel!
     @IBOutlet weak var lblDetails: UILabel!
-    @IBAction func goToSecond(_ sender: Any) {
-        tabBarController?.selectedIndex = 1
-       
-    }
-    
-    var image = UIImage()
-    var name = ""
-    var details = ""
-    var longitude = 0.0
-    var latitude = 0.0
+	
+	// C'est mieux de passer l'objet directement
+	var monu: Monu?
     
     private var nextViewNumber = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleDetails.text = "\(name)"
-        imgDetails.image = image
-        lblDetails.text = "\(details)"
-
-        // Do any additional setup after loading the view.
+        titleDetails.text = monu?.name
+        imgDetails.image = monu?.photo!
+        lblDetails.text = monu?.details
     }
     
+	@IBAction func goToSecond(_ sender: Any) {
+		if let mapViewController = tabBarController?.viewControllers?[1] as? MapViewController {
+			mapViewController.selectedMonu = self.monu
+		}
+		
+		tabBarController?.selectedIndex = 1
+	   
+	}
 }
