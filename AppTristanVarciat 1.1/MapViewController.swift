@@ -31,7 +31,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation.id = "id-1"
         annotation.coordinate = CLLocationCoordinate2D(latitude: 45.194999, longitude: 5.732365)
         annotation.title = "Musée de Grenoble"
-        annotation.subtitle = "Photo"
+        annotation.subtitle = "5 Place de Lavalette, 38000 Grenoble"
         
         mapView.addAnnotation(annotation)
         
@@ -39,7 +39,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation2.id = "id-2"
         annotation2.coordinate = CLLocationCoordinate2D(latitude: 45.199194, longitude: 5.724629)
         annotation2.title = "La Bastille"
-        annotation2.subtitle = "Photo"
+        annotation2.subtitle = "Quai Stéphane Jay, 38000 Grenoble"
         
         mapView.addAnnotation(annotation2)
         
@@ -47,6 +47,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation3.id = "id-3"
         annotation3.coordinate = CLLocationCoordinate2D(latitude: 45.075537, longitude: 5.773050)
         annotation3.title = "Domaine de Vizille"
+        annotation3.subtitle = "Place du Château, 38220 Vizille"
         
         mapView.addAnnotation(annotation3)
         
@@ -54,7 +55,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation4.id = "id-4"
         annotation4.coordinate = CLLocationCoordinate2D(latitude: 45.207801, longitude: 5.657654)
         annotation4.title = "Grotte les Cuves de Sassenage"
-        annotation4.subtitle = "Photo"
+        annotation4.subtitle = "Place Louis Reverdy, 38360 Sassenage"
         
         mapView.addAnnotation(annotation4)
         
@@ -62,7 +63,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation5.id = "id-5"
         annotation5.coordinate = CLLocationCoordinate2D(latitude: 44.960671, longitude: 5.742942)
         annotation5.title = "La Mine Image"
-        annotation5.subtitle = "Photo"
+        annotation5.subtitle = "1 Rue D'Aveillans, 38770 La Motte-d'Aveillans"
         
         mapView.addAnnotation(annotation5)
         
@@ -70,14 +71,14 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation6.id = "id-6"
         annotation6.coordinate = CLLocationCoordinate2D(latitude: 45.233026, longitude: 5.885831)
         annotation6.title = "Maison Bergès"
-        annotation6.subtitle = "Photo"
+        annotation6.subtitle = "40 Avenue des Papeteries, 38190 Villard-Bonnot"
         
         mapView.addAnnotation(annotation6)
         
         let annotation7 = CustomAnnotation()
         annotation7.id = "id-7"
         annotation7.coordinate = CLLocationCoordinate2D(latitude: 45.141305, longitude: 5.829698)
-        annotation7.title = "Parc Thermale d'Uriages"
+        annotation7.title = "38410 Saint-Martin-d'Uriage"
         annotation7.subtitle = "Photo"
         
         mapView.addAnnotation(annotation7)
