@@ -8,4 +8,4 @@ Questions :
 
 2) Comment coder le bouton information des annotations pour qu'il me renvoie vers le bon DetailViewController ?
 
-3) Comment placer les cells dans la ListViewControlelr de la plus proche de moi à la plus loin ?
+3) Comment placer les cells dans la ListViewController de la plus proche de moi à la plus loin ?
